@@ -246,7 +246,7 @@ ${prefix}games ⥨ اوامر الالعاب
 
 ${prefix}music ⥨ اوامر الموسيقى
 
-${prefix}vip bot ⥨ اونر البوت
+${prefix}vip  ⥨ اونر البوت
 
 Other Commands:
 
@@ -616,7 +616,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : ! ~ D e v i l")
+     .setFooter("By : Pixel Bot.")
                                                 
 
 message.channel.send(embed);
@@ -737,7 +737,7 @@ if(!args[0]) return message.reply('مرجو كتابة نص الدي تريد');
   if (message.content === "-avatar") {
    const embed = new Discord.RichEmbed()
        .setColor('RANDOM') 
-       .setFooter('By ! ~ D e v i l')
+       .setFooter('By : Pixel Bot.')
        .setThumbnail(message.author.avatarURL)
        .addField(message.author.displayAvatarURL)
  message.channel.send(embed);
