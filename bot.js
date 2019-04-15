@@ -1400,7 +1400,7 @@ client.on('message' , message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل ",
         footer: {
-          text: "! ~ D e v i l"
+          text: "Pixel Bot."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -1606,7 +1606,7 @@ if (message.member.voiceChannel == null) return message.channel.send(`**الرج
 
 	
 	   client.on("message", message => {
- if (message.content === "*games") {
+ if (message.content === "-games") {
         message.react("📫")
 	           message.react("✅")
   const embed = new Discord.RichEmbed() 
